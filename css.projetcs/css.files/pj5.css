@@ -1,7 +1,6 @@
-<style>
-        *{
-            Margin:0; padding:0;
-        }
+*{
+    Margin:0; padding:0;
+}
         nav{
             padding:5px;
         }
@@ -44,8 +43,7 @@
             position:fixed;
             right:10px;
         }
-       footer{
-        position:fixed;
-        bottom:1px;
-       }
-</style>
+footer{
+    position:fixed;
+    bottom:1px;
+}
