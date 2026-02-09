@@ -1,0 +1,17 @@
+*{
+    margin:0px; padding:0px;
+}
+#about{
+    height:500px;
+    width:50%;
+    background-color: rgb(255, 182, 182);
+    display:inline-block;
+}
+#contact{
+    height:200px;
+    width:50%;
+    background-color: aquamarine;
+    display:inline-block;
+    position:fixed;
+    left:500px;
+}
