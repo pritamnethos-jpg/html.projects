@@ -1,0 +1,83 @@
+maain{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width 800px;
+    height:1000px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    height: 400px;
+    width: 350px;
+    box-shadow:0px 2px 10px grey;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    
+}
+.profile_picture{
+    height: 120px;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    padding: 2px;
+    border: 3px solid rgb(0, 145, 255);
+}
+.text-data{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.card .text-data .name{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+.card .text-data .job{
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.card .logos{
+    width: 170px;
+    display: flex;
+    justify-content:space-between;
+    background-color:#4070f4;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+
+
+
+
+
+}
+.likes .fa-brands{
+    display: flex;
+    align-items:center;
+    margin:0px 8px white;
+    height: 24px;
+    width: 24px;
+
+
+
+}
+.fa-thumbs-up{
+
+}
+
+.promotion{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.impressions{
+    display: flex;
+
+}
